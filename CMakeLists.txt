@@ -14,7 +14,7 @@ find_package(catkin REQUIRED message_generation std_msgs geometry_msgs)
 add_message_files(
   DIRECTORY msg
   FILES
-  Imu.msg)
+  Imu.msg Motor.msg)
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
 
