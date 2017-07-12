@@ -1,7 +1,8 @@
 # Contains preprocessed values from IMU multi-sensor
 std_msgs/Header header
-geometry_msgs/Vector3 accel
-geometry_msgs/Vector3 mag
-float32 pressure
-float32 altitude
-float32 temperature
+float64 roll
+float64 pitch
+float64 yaw
+float64 pressure
+float64 altitude
+float64 temperature
