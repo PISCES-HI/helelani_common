@@ -1,0 +1,9 @@
+# Helelani mission heartbeat data, transmitted each second
+bool mission_active
+int32 elapsed_seconds
+float32 to_rover_delay
+float32 from_rover_delay
+
+uint8 STEREO_TOEDIN=0
+uint8 STEREO_PARALLEL=1
+uint8 stereo_camera_type
