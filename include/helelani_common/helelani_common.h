@@ -2,13 +2,13 @@
 #define HELELANICOMMON_H
 
 #include <cmath>
-#define WHEEL_DIAMETER 0.6f
+#define DEFAULT_WHEEL_DIAMETER 0.6f
 
 namespace helelani_common
 {
 
-static float RotationsToMeters(float rots) {
-    return WHEEL_DIAMETER * float(M_PI) * rots;
+static float RotationsToMeters(float diameter, float rots) {
+    return diameter * float(M_PI) * rots;
 }
 
 }

@@ -6,6 +6,7 @@ uint8 CMD_DRIVE=1
 uint8 CMD_TURN=2
 uint8 CMD_SADL=3
 uint8 CMD_KILL=4
+uint8 CMD_CONFIG=5
 uint8 cmd
 
 # Command direction
@@ -24,6 +25,10 @@ uint8 UNIT_ROTATIONS=1
 uint8 UNIT_DEGREES=2
 uint8 UNIT_METERS=3
 uint8 unit
+
+# Config type
+uint8 CONFIG_DIAMETER=0
+uint8 config
 
 # Command value
 float32 value
